@@ -12,6 +12,7 @@ ServerName=okchaind
 ClientName=okchaincli
 #StartBlockHeight=20000
 
+
 # process linker flags
 ifeq ($(VERSION),)
     VERSION = $(COMMIT)
